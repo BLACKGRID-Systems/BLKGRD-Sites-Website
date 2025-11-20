@@ -1,9 +1,9 @@
 {
-    "name": "schema",
-    "version": "1.0.5",
-    "description": "SCHEMA - Schumacher Content Hierarchical Encoding & Management Architecture",
+    "name": "blkgrd-sites",
+    "version": "0.0.1",
+    "description": "Site for BLACKGRID Systems web development",
     "author": {
-    "name": "Joshua Schumacher",
-    "email": "contact@joshuaschumacher.com",
-    "url": "https://www.joshuaschumacher.com" }
+    "name": "BLACKGRID",
+    "email": "contact@blkgrd.net",
+    "url": "https://sites.blkgrd.net" }
 }
