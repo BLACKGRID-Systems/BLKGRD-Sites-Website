@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [v0.0.2.0001-2025.11.21-release] - 2025-11-21
+## Notes: First attempt at Embeds
+
+### Added
+
+- Metadata for embeds on soicals (Discord, Facebook, etc)
+
+### Changed
+
+- Nothing
+
+### Removed
+
+- Nothing
 
 # [v0.0.1.0001-2025.11.19-release] - 2025-11-19
 ## Notes: Initial Setup
@@ -37,4 +51,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (SCHEMA) images/SCHEMA.png
 
 [Github Page]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website
-[v0.0.1.0001-2025.11.19-release]: No Page Available
+[v0.0.2.0001-2025.11.21-release]: No Page Available 
+[v0.0.1.0001-2025.11.19-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/a325c63ceccb9b06d24d01da2ebc83bd65df473d
