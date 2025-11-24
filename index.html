@@ -80,6 +80,16 @@
             width: auto;
         }
 
+        .logo {
+            position: relative;
+        }
+
+        .logo-overlay {
+            position: absolute;
+            inset: 0;        /* covers entire div */
+            z-index: 10;     /* sits above everything */
+        }
+
         .nav-links {
             display: flex;
             gap: 40px;
@@ -577,6 +587,7 @@
     <nav>
         <div class="nav-container">
             <div class="logo">
+                <a href="#hero" class="logo-overlay"></a>
                 <img src="images/blkgrd_logo.png" alt="BLACKGRID Logo" class="logo-image">
                 BLACKGRID
             </div>
@@ -592,7 +603,7 @@
     <!-- Main Content -->
     <div class="main-content">
         <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <h1>Engineered for<br>excellence.</h1>
         <p class="tagline">Premium web solutions that elevate your brand<br>and drive results.</p>
         <div class="hero-cta">
@@ -739,7 +750,7 @@
         <div class="footer-content">
             <div class="footer-logo">
                 <img src="images/blkgrd_logo.png" alt="BLACKGRID Logo" class="footer-logo-image">
-                BLACKGRID Systems
+                BLACKGRID Sites
             </div>
             
             <div class="footer-links">
@@ -747,7 +758,7 @@
                 <a href="#process" class="footer-link">Process</a>
                 <a href="#technologies" class="footer-link">Technologies</a>
                 <a href="https://www.blkgrd.net" class="footer-link">Main Site</a>
-                <a href="styleguide.html" class="footer-link style-guide-link">Style Guide</a>
+                <a href="/styleguide/" class="footer-link style-guide-link">Style Guide</a>
                 <a href="mailto:contact@blkgrd.net" class="footer-link">Contact</a>
             </div>
             
@@ -772,39 +783,6 @@
                 }
             });
         });
-
-        // Loading animation for style guide link
-        const loadingOverlay = document.querySelector('.loading-overlay');
-        const nav = document.querySelector('nav');
-        const mainContent = document.querySelector('.main-content');
-
-        // Select style guide link
-        const styleGuideLink = document.querySelector('.style-guide-link');
-        
-        if (styleGuideLink) {
-            styleGuideLink.addEventListener('click', function(e) {
-                e.preventDefault();
-                const href = this.getAttribute('href');
-                
-                // Fade out main content
-                mainContent.classList.add('fade-out');
-                
-                // Show loading spinner after fade
-                setTimeout(() => {
-                    loadingOverlay.classList.add('active');
-                }, 300);
-                
-                // Slide up nav
-                setTimeout(() => {
-                    nav.classList.add('slide-up');
-                }, 300);
-                
-                // Navigate to page
-                setTimeout(() => {
-                    window.location.href = href;
-                }, 1200);
-            });
-        }
 
         console.log('Hi! You must either be interested in technology or stumbled here by accident');
         console.log('If it was the former, feel free to reach out to contact@blkgrd.net');

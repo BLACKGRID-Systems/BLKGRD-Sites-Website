@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [v0.0.4.0002-2025.11.24-release] - 2025-11-24
+## Notes: Minor Touch ups and reworks of pages (and structures)
+
+### Added
+
+- /styleguide Directory (testing to try and get clean pages with GitHubs limits)
+- /styleguide/images/
+- /styleguide/image/blkgrd_logo.png
+- /styleguide/index.html (copy of styleguide.html, since web server will automatically display "index.html"s)
+
+### Changed
+
+- BLACKGRID SYSTEMS in the footer to BLACKGRID SITES
+- Make logo clickable (index scrolls to #hero or main content and style guide links to sites.blkgrd.net)
+- index.html's "Style Guide" now links to /styleguide/index.html instead of styleguide.html
+- Style Guide's "View Site" now links to "https://sites.blkgrd.net" instead of /index.html
+
+### Removed
+
+- Loading animation due to it "sticking" if you go back with pressing on the "proper" button
+
 # [v0.0.3.0002-2025.11.21-release] - 2025-11-21
 ## Notes: Embeds seem to be working great (also added screenshots of site)
 
@@ -70,6 +91,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (SCHEMA) images/SCHEMA.png
 
 [Github Page]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website
-[v0.0.3.0002-2025.11.21-release]: No Page Available
+[v0.0.4.0002-2025.11.24-release]: No Page Available
+[v0.0.3.0002-2025.11.21-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/3350ef1b447d2e80318b2a3918ec3fc3872902fc
 [v0.0.2.0001-2025.11.21-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/4d7b56ec23e5b1cce9e2ac10d8c3ddc566355a88
 [v0.0.1.0001-2025.11.19-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/a325c63ceccb9b06d24d01da2ebc83bd65df473d
