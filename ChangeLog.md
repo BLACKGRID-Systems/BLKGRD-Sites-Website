@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [v0.0.5.0002-2025.11.24-release] - 2025-11-24
+## Notes: Trying to get analytics work
+
+### Added
+
+- Google Analytics to all pages
+
+### Changed
+
+- Nothing
+
+### Removed
+
+- Nothing
+
 # [v0.0.4.0002-2025.11.24-release] - 2025-11-24
 ## Notes: Minor Touch ups and reworks of pages (and structures)
 
@@ -92,6 +107,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [Github Page]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website
 [v0.0.4.0002-2025.11.24-release]: No Page Available
+[v0.0.4.0002-2025.11.24-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/c3a6cd5fe001255d3ca86a0893406d637bbd7b24
 [v0.0.3.0002-2025.11.21-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/3350ef1b447d2e80318b2a3918ec3fc3872902fc
 [v0.0.2.0001-2025.11.21-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/4d7b56ec23e5b1cce9e2ac10d8c3ddc566355a88
 [v0.0.1.0001-2025.11.19-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/a325c63ceccb9b06d24d01da2ebc83bd65df473d
