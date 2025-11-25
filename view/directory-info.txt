@@ -2,3 +2,5 @@ The /view directory is used to host other sites within BLACKGRID Systems Sites.
 
 For the moment, it will just host the entire site files until BLKGRD can figure out redirects (this is a temporary fix)
 Since it is a temporary fix, the sites need to manually updated
+
+Example at /view/exmaple-site/
