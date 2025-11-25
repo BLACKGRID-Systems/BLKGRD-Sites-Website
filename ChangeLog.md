@@ -5,8 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [v0.0.9.0003-2025.11.25-release] - 2025-11-25
+## Notes: Embed Updated and Additions (and ChangeLog fix)
+
+### Added
+
+- Embed to Example Site (/view/example-site/index.html)
+- Embed to Style Guide Guide (/styleguide)
+
+### Changed
+
+- (ChangeLog.md) Notes for v0.0.8 wasn't updated. So it has been updated to reflect it's purpose
+
+### Removed
+
+- Nothing
+
 # [v0.0.8.0003-2025.11.25-release] - 2025-11-25
-## Notes: Updated README to better relect BLACKGRID Sites purpose
+## Notes: Added Example Site
 
 ### Added
 
@@ -168,7 +184,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (SCHEMA) images/SCHEMA.png
 
 [Github Page]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website
-[v0.0.8.0003-2025.11.25-release]: No Page Available
+[v0.0.9.0003-2025.11.25-release]: No Page Available 
+[v0.0.8.0003-2025.11.25-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/94c1ab2241a79ae3e0b5211b3dd861ad938c8cbe
 [v0.0.7.0003-2025.11.24-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/a5304d112327994d326a7fc9bb9bc32b24782254
 [v0.0.7.0002-2025.11.24-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/1b4ccf761981d95ad10b7cd6c597f076f265a2fd
 [v0.0.6.0002-2025.11.24-release]: https://github.com/BLACKGRID-Systems/BLKGRD-Sites-Website/commit/0fd477c3368603f62c0ae60e995024840558eba0
